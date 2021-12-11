@@ -27,7 +27,7 @@ int main() {
 			diff = min(diff, q);
 			q -= diff;
 		}
-		// fill the questions with the needed 1's or 0's to make them equal
+		// fill the question marks with the needed 1's or 0's to make them equal
 		for (int i = 0; i < n; i++) {
 			if (diff > 0 && s[i] == '?') {
 				s[i] = (o < z ? '1' : '0');
